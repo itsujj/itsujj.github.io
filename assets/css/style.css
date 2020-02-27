@@ -9,6 +9,11 @@ p{
     padding: 0px;
 }
 
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #content-container{
     width:780px;
     margin: auto;
