@@ -10,8 +10,9 @@ p{
 }
 
 .container{
-    padding-left: 0px;
-    padding-right: 0px;
+    width: fit-content;
+    padding: 0px;
+    margin: auto;
 }
 
 #content-container{
