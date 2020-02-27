@@ -1,0 +1,29 @@
+.quotes-box{
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+  .quote-container{
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .quote{
+    font-size: 18px;
+  }
+
+  .quoter{
+    font-size: 15px;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+      .quote{
+        font-size: 15px;
+      }
+
+      .quoter{
+        font-size: 12px;
+      }
+      
+    }

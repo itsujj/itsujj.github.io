@@ -1,0 +1,7 @@
+#blogs-list-box{
+    padding: 10px;
+  }
+  #blogs-list-box a{
+    display: block;
+    margin-bottom: 5px;
+  }

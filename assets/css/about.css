@@ -1,0 +1,49 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid #D1D1D1;
+    position: relative;
+    top:40px;
+}
+
+#about div{
+    border-top: 4px solid #D1D1D1;
+    border-bottom: 4px solid #D1D1D1;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#about div p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#about div p:nth-child(n+2){
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 480px) {
+    #about div p:nth-child(1){
+        font-size: 20px;
+    }
+
+    #about div p:nth-child(n+2){
+        font-size: 15px;
+    }
+   
+  }
